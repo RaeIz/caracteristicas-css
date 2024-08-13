@@ -1,0 +1,29 @@
+html{
+    font-size: 20px;
+}
+.container1{
+    
+    height: 200px;
+    background: white;
+    
+
+
+}
+
+h1{
+    font-size: 1rem;
+    height: 100px;
+    background: chartreuse;
+}
+
+h2{
+    font-size: 1rem;
+    height: 100px;
+    background: purple;
+}
+
+p{
+    font-size: 1rem;
+    height: 100px;
+    background: blue;
+}

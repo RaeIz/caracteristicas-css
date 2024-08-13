@@ -1,0 +1,39 @@
+.mensaje1{
+    size: 20;
+    color: blue;
+}
+
+.mensaje2{
+    color: blue;
+    display: none;
+}
+h1{
+    color: antiquewhite;
+
+}
+
+p{
+    color: black
+}
+
+
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    .mensaje1{
+      display: flex;
+    }
+    .mensaje2{
+        display: none;
+      }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .mensaje1{
+        display: none;
+      }
+
+    .mensaje2{
+        display: flex;
+    }
+  }
